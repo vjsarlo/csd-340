@@ -1,3 +1,7 @@
+html, body {
+    width: 100%;
+}
+
 h1, h3, figure {
     text-align: center;
     font-family: 'Oswald', Verdana, Arial, sans-serif;

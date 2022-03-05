@@ -1,0 +1,76 @@
+h1, h3, figure {
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 400;
+}
+
+#hobbies {
+    display: grid;
+    margin-top: 10%;
+    grid-template-columns: auto auto auto;
+    max-width: 100%;
+}
+
+#experience {
+    display: grid;
+    margin-top: 10%;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+}
+
+img {
+    width: 400px;
+    height: 350px;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+}
+
+h1, h3, figcaption {
+    background: rgba(0, 255, 255, 1);
+}
+
+.images {
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#last-div {
+    width: 100%;
+    float: center;
+    margin-bottom: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=send-message] {
+    background-color: rgb(4, 70, 70);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: center;
+}
+  
+input[type=send-message]:hover {
+    background-color: rgb(4, 100, 100);
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
